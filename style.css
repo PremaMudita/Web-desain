@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header h1 {
+    color: #333;
+}
+
+header h2 {
+    color: #666;
+}
+
+header p {
+    color: #444;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+}
+
+section#about, section#favorite, section#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section#about img, section#favorite img {
+    width: 100%;
+    height: auto;
+}
+
+section h1 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Contact section styles */
+#contact div {
+    margin-bottom: 10px;
+}
+
+#contact h3 {
+    color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
